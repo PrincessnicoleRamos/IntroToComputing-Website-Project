@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boarding/Final Website</title>
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="Header">
+        <div class="container">
+            <nav>
+                <img src="img/Logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Video">Video</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="header-text">
+            <div class="row">
+                <div class="desc">
+                    <p>Struggling to find the Perfect Boarding Place?</p>
+                    <h1>Navigate through the pages of possibility as you embark on the journey of finding your ideal <span>Boarding House</span>. Let this website be your compass in the search for comfort, convenience, and the perfect place to call home.</h1>
+                    <div class="nxt-page">
+                        <a href="page2.html">
+                            <button class="nxt-btn">Click Here</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="desc-img">
+                    <img src="img/Bhlogo .jpg" class="img-logo">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+<!-------------------------------Video----------------------------->
+    <div id="Video">
+        <div class="container">
+            <div class="row">
+                <div class="entertainment-1">
+                    <h1 class="Discription">Video Entertainment</h1>
+                       <p>Watch this video about a college student as he narrates his amusing experiences while staying in his boarding house. He shares entertaining anecdotes and sheds light on the humorous side of his life as a student. The video captures moments of laughter and showcases the unique and funny incidents that have happened to him during his time in college. Join him on this entertaining journey as he recounts the lighthearted tales that have shaped his boarding house experience. Dive into the laughter-filled narrative of a student's life, offering a glimpse into the amusing side of college living.</p>
+              </div>
+                <div class="entertainment-2">
+                    <video controls src="Lifeinbh.mp4"></video>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-------------------------------About----------------------------->
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/aboutme.png" alt="About Me Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><br>Hello, warm greetings to you! I am Princess Nicole Raymundo Ramos, currently a First year diligent student at the University of Southern Mindanao with aspirations of becoming a future software engineer. I wholeheartedly invite you to delve into the intricate depths of this website, meticulously crafted as the culmination of my tireless efforts and fervent passion. It stands as a testament to my academic journey, specifically serving as my final project for the Introduction to Computing subject.
+                    </br>
+                    <br>
+                    You should find yourself inquisitive or inspired, whether it be a query, a commendation, or a simple desire to connect, I warmly encourage you to reach out. Feel free to engage with me through the various social media platforms thoughtfully embedded below, as I welcome the opportunity to engage in meaningful conversations and build connections with each visitor to this website.
+                    </br>
+                    <br>
+                    Your engagement and valuable input contribute significantly to our ongoing efforts to enhance and maintain the excellence of our online services. Your active participation and support are pivotal to achieving our goal of continuous improvement. Once again, heartfelt gratitude for making time visiting this website. 
+                    </br>
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/bodingramos"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/Luna_freya12"><i class="fa fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/cessfreya_luna/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://github.com/PrincessnicoleRamos"><i class="fa fa-github"></i></a>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------Contact------------------------------>
+
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <form id="contactForm"> <!-- Added id to the form -->
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>        
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>         
+                    <button type="submit" class="btn"> Submit </button>       
+                </form> 
+            </div>
+        </div>
+    </div>
+    <div class="Copyright">
+        <p> Copyright @ Princess Nicole R. Ramos, Made with love, hard work, and passion.</p>
+    </div>
+</div>
+
+<div id="floating-point">Thank you for sending a message.I am delighted to read your thoughts about this website. Your feedback is genuinely appreciated, and knowing that you took the time to share your thoughts on our platform brings great joy to me.</div>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        document.getElementById('floating-point').style.display = 'block';
+        // Dynamically set the position of the floating point in the middle of the screen
+        const floatingPoint = document.getElementById('floating-point');
+        floatingPoint.style.top = '50%';
+        floatingPoint.style.left = '50%';
+        floatingPoint.style.transform = 'translate(-50%, -50%)';
+
+        setTimeout(function() {
+            document.getElementById('floating-point').style.display = 'none';
+        }, 3000);
+    });
+</script>
+</script>
+
+</body>
+</html>
