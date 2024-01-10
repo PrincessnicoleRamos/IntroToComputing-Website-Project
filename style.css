@@ -127,43 +127,41 @@ nav ul li a:hover::after {
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
     .desc {
-        flex-basis: 100%; /* Adjusted for responsiveness */
+        flex-basis: 100%;
     }
 
     .img-logo {
-        max-width: 100%; /* Adjusted for responsiveness */
+        max-width: 100%; 
     }
 
     .logo {
-        max-width: 150px; /* Adjusted for responsiveness */
+        max-width: 150px; 
     }
 
     .nav ul li {
-        margin: 3px; /* Adjusted for responsiveness */
-        width: auto; /* Adjusted for responsiveness */
+        margin: 3px; 
+        width: auto; 
     }
 
     .nav ul li a {
-        font-size: 10px; /* Adjusted for responsiveness */
+        font-size: 10px; 
     }
 
     .header-text {
-        font-size: 25px; /* Adjusted for responsiveness */
+        font-size: 25px; 
     }
 
     .header-text h1 {
-        margin-top: 10px; /* Adjusted for responsiveness */
-        font-size: 13px; /* Adjusted for responsiveness */
+        margin-top: 10px; 
+        font-size: 13px;
     }
 
     .nxt-btn {
-        font-size: 14px; /* Adjusted for responsiveness */
-        letter-spacing: 5px; /* Adjusted for responsiveness */
+        font-size: 14px; 
+        letter-spacing: 5px; 
     }
 }
 
-
-/* Responsive Styles */
 @media only screen and (min-width: 768px) {
     .desc {
         flex-basis: 50%;
@@ -237,14 +235,14 @@ nav ul li a:hover::after {
 
 /* --------------------Video------------------ */
 #video {
-    padding: 40px 0; /* Adjust padding for smaller screens */
+    padding: 40px 0; 
     color: aliceblue;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Change to space-around for better spacing on smaller screens */
+    justify-content: space-around; 
 }
 
 .entertainment-2 {
@@ -254,7 +252,7 @@ nav ul li a:hover::after {
 
 .entertainment-2 video {
     width: 100%;
-    max-width: 100%; /* Adjust max-width for smaller screens */
+    max-width: 100%; 
     border-radius: 15px;
 }
 
@@ -263,7 +261,7 @@ nav ul li a:hover::after {
 }
 
 .Discription {
-    font-size: 30px; /* Adjust font size for smaller screens */
+    font-size: 30px;
     font-weight: 600;
     color: aliceblue;
 }
@@ -271,15 +269,15 @@ nav ul li a:hover::after {
 /* Media Query for smaller screens */
 @media only screen and (max-width: 600px) {
     #video {
-        padding: 20px 0; /* Adjust padding for even smaller screens */
+        padding: 20px 0; 
     }
 
     .entertainment-2 video {
-        border-radius: 0; /* Remove border-radius for smaller screens if needed */
+        border-radius: 0; 
     }
 
     .Discription {
-        font-size: 20px; /* Adjust font size for even smaller screens */
+        font-size: 20px;
     }
 }
 
